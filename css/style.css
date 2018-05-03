@@ -1,8 +1,17 @@
+body{
+	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+
 
 
 .navbar{
 	min-height: 50px;
 	font-size: 25px;
+	font-family: sans-serif;
+}
+
+.navbar-custom{
+ 	background-image: linear-gradient(to right, #434343 0%, black 100%);
 }
 
 
@@ -10,7 +19,6 @@
 
   text-align: center;
 }
-
 
 .container .card {
   height: 100%;
@@ -35,8 +43,19 @@
 	max-height: 200px;
 	font-family: sans-serif;
 	color: black;
+	background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
 
 }
+
+#bCard h2 {
+	
+	text-align: left;
+	margin-left: 10px;
+	color: black;
+
+}
+
+
 
 #bezos, #java , #python{
 
@@ -47,6 +66,8 @@
 	
 	
 }
+
+
 
 .navbar #nHome {
 	background-color: red;
@@ -59,4 +80,5 @@
  .navbar #nProfile {
  	background-color: yellow;
  }
+
 
