@@ -1,0 +1,62 @@
+
+
+.navbar{
+	min-height: 50px;
+	font-size: 25px;
+}
+
+
+.card-title{
+
+  text-align: center;
+}
+
+
+.container .card {
+  height: 100%;
+  
+}
+
+.input-group{
+	width: 100%;
+}
+
+.sizing-addon1{
+	width: 100px;
+}
+
+.btn {
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+.jumbotron {
+	text-align: center;
+	max-height: 200px;
+	font-family: sans-serif;
+	color: black;
+
+}
+
+#bezos, #java , #python{
+
+	height: 100px;
+	width: 100px;
+	margin-left: 20px;
+	margin-right: 40px;
+	
+	
+}
+
+.navbar #nHome {
+	background-color: red;
+}
+
+.navbar #nBlog {
+	background-color: blue;
+}
+
+ .navbar #nProfile {
+ 	background-color: yellow;
+ }
+
