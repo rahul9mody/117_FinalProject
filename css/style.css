@@ -33,10 +33,11 @@ body{
 	width: 100px;
 }
 
-.btn {
+.btn-primary {
 	width: 100%;
 	margin-bottom: 100px;
 }
+
 
 .jumbotron {
 	text-align: center;
@@ -57,17 +58,22 @@ body{
 
 
 
-#bezos, #java , #python{
+.card #node, #block , #bezo{
 
 	height: 100px;
-	width: 100px;
+	width: 150px;
 	margin-left: 20px;
 	margin-right: 40px;
 	
 	
 }
 
+/*
 
+Following are the customer bg color for the element that the page is cuurently loaded corrsponding to the link in the navbar
+
+
+*/
 
 .navbar #nHome {
 	background-color: red;
