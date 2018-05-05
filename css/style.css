@@ -2,7 +2,10 @@ body{
 	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
 
-
+.twitter{
+	background-color: #c0deed;
+	
+}
 
 .navbar{
 	min-height: 50px;
@@ -48,16 +51,14 @@ body{
 
 }
 
-#bCard h2 {
-	
+.card-body #bH3{
+
 	text-align: left;
-	margin-left: 10px;
-	color: black;
-
+	font-family: sans-serif;
+	font-weight: bold;
+	
+	
 }
-
-
-
 .card #node, #block , #bezo{
 
 	height: 100px;
@@ -67,6 +68,22 @@ body{
 	
 	
 }
+#status{
+	background-color: #A7D6ED; 
+}
+
+#inStat{
+	width: 100%;
+
+}
+
+.footer{
+
+	margin-top: 100px;
+	float: middle;
+	text-align: center;
+}
+
 
 /*
 
