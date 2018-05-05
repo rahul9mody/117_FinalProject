@@ -2,7 +2,6 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
     <title>Home</title>
@@ -22,150 +21,94 @@
     <link rel="stylesheet" type="text/css" href = "css/style.css">
 
   </head>
-  <body>
-
-    <!-- Navbar -->
-    <div class="container-fluid">
+    
+  <body id = "main">
       <div class="jumbotron ">
-        <h1> Rahul Mody </h1>
+          <h1> Rahul Mody</h1>
+          <p id="jumbo">
+              <script type="text/javascript">
+                  var date = new Date();
+                  var day = date.getUTCDate();
+                  var month = date.getUTCMonth() + 1;
+                  var year = date.getUTCFullYear();
+                  var hour = date.getHours();
+                  var minute = date.getMinutes();
+                  var second = date.getSeconds() ;
+                  
+                  newDate = month + " / " + day + " / " + year + "  " + hour + ":" + minute + ":" + second + " ET";
+                  document.getElementById("jumbo").innerHTML = newDate;
+              </script>
+          </p> 
+      </div>
       
-        <p id="jumbo">
-
-          <script type="text/javascript">
-            
-            var date = new Date();
-
-            var day = date.getUTCDate();
-            var month = date.getUTCMonth() + 1;
-            var year = date.getUTCFullYear();
-            var hour = date.getHours();
-            var minute = date.getMinutes();
-            var second = date.getSeconds() ;
-
-            newDate = month + " / " + day + " / " + year + "  " + hour + ":" + minute + ":" + second + " ET";
-            document.getElementById("jumbo").innerHTML = newDate;
-          </script>
-
-        </p> 
-        <!-- Jumbotron -->
-      </div>
-
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="blog.html">DecaBlog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-              </li>
-            </ul>
-          </div>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a style = "color: white;" class="nav-item nav-link active" href="index.html">Home</a>
+                    <a style = "color: white;" class="nav-item nav-link" href="blog.html">Deca-Blog</a>
+                    <a style = "color: white;" class="nav-item nav-link" href="profile.html">Profile</a>
+                    <a style = "color: white;" class="nav-item nav-link disabled" href="#">Github</a>
+                </div>
+            </div>
         </nav>
+      
+      <div class = "container">
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 id="img1p"><img id="node" src="images/node.jpg" align="middle">Node JS</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-default">Read</a>
+                        </div>
+                    </div>
+                </div>
 
-
-    </div>
-
-
-
-      <!-- Highlighted Blogs -->
-
-    <div class="container">
-
-      <h3> Featured Blogs</h3>
-      <div class="row">
-        
-        <div class="col-4">
-          <div class="card">
-            <h4 id="img1p"><img id="node" src="images/node.jpg" align="middle">Node JS</h4>
-             
-             <div class="card-body">
-              
-              <p>
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-              </p>
-
-               <!-- Card-body -->
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 id="img2"><img id="block" src="images/block.jpg" align="middle">Blockchain</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-default">Read</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4">
+                    <div class="card">
+                        <div class="card-body">
+                            <h4 id="img1p"><img id="bezo" src="images/bezo.jpg" align="middle">Jeff Bezos</h4>
+                            <p class="card-text">
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                                With supporting text below as a natural lead-in to additional content.
+                            </p>
+                            <a href="#" class="btn btn-default">Read</a>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <button type="button" class="btn btn-default btn-custom">Read</button>
-             <!--  card -->
-          </div>
-           <!--  col -->
-        </div>
-        
-        <div class="col-4">
-          <div class="card">
-            <h4 id="img2"><img id="block" src="images/block.jpg" align="middle">Blockchain</h4>
-             
-             <div class="card-body">
-              
-              <p>
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-
-              </p>
-
-               <!-- Card-body -->
-            </div>
-            <button type="button" class="btn btn-default btn-custom">Read</button>
-             <!--  card -->
-          </div>
-           <!--  col -->
-        </div>
-        
-        <div class="col-4">
-          <div class="card">
-            <h4 id="img1p"><img id="bezo" src="images/bezo.jpg" align="middle">Jeff Bezos</h4>
-             
-             <div class="card-body">
-              
-              <p>
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-                This is some text within a card body.
-
-              </p>
-
-               <!-- Card-body -->
-            </div>
-            <button type="button" class="btn btn-default btn-custom">Read</button>
-             <!--  card -->
-          </div>
-           <!--  col -->
-        </div>
-
-      <!--  Row  -->
-      </div>
 
       
       <br>
@@ -214,9 +157,10 @@
 
       <br><br>
 
-      <h3>Register</h3><hr>
+        <h3>Register</h3><hr>
 
       <div class="row">
+       
        
             <form name = "myForm" id = "form-7" method = "post" onsubmit="return validateForm()">
 
@@ -235,13 +179,15 @@
 
 
                     <br>
-                   <button type="submit" class="btn btn-primary">Submit</button>
+                   <button id = "formbtn" type="submit" class="btn btn-primary">Submit</button>
 
                 </div>
 
             </form>
 
-     <!--  row  -->   
+          
+      
+     <!--  form  -->   
       </div>
 
       <div class="footer">
@@ -256,5 +202,4 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
-
 </html>

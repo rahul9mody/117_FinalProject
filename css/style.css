@@ -1,31 +1,49 @@
-body{
+#main{
 	background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
 }
-
-.twitter{
+            
+#twibg{
 	background-color: #c0deed;
-	
 }
 
-.navbar{
-	min-height: 50px;
-	font-size: 25px;
+.jumbotron {
+	text-align: center;
+	max-height: 200px;
 	font-family: sans-serif;
+	color: black;
+	background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    border-radius: 0 !important;                                            /* Clear any edge radius on corner */
+    margin-bottom: 0px;                                                     /* Remove space between jumbotron and navbar*/
 }
 
-.navbar-custom{
- 	background-image: linear-gradient(to right, #434343 0%, black 100%);
+/********************************************** Navbar style starts here *******************************************************************/
+            
+.navbar{
+    border-radius: 0 !important;                                            /* Clear any edge radius on corner */
+    padding: 10px;
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+
 }
 
+.nav-item{
+    margin-left: 15px;
+    font-size: 20px;
+}
 
+.navbar-toggler{
+	background-color: white;
+}
+
+/*****************************************************************************************************************/
 .card-title{
 
   text-align: center;
 }
 
-.container .card {
-  height: 100%;
-  
+
+.btn{
+    float: right;
+    
 }
 
 .input-group{
@@ -36,45 +54,28 @@ body{
 	width: 100px;
 }
 
-.btn-primary {
-	width: 100%;
-	margin-bottom: 100px;
+#formbtn{
+    width: 100%;
+    margin-bottom: 100px;
 }
 
 
-.jumbotron {
-	text-align: center;
-	max-height: 200px;
-	font-family: sans-serif;
-	color: black;
-	background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
-
-}
-
-.card-body #bH3{
-
+#bCard h2 {
+	
 	text-align: left;
-	font-family: sans-serif;
-	font-weight: bold;
-	
-	
-}
-.card #node, #block , #bezo{
+	margin-left: 10px;
+	color: black;
 
-	height: 100px;
-	width: 150px;
+}
+
+.card #node, #block, #bezo{
+
+	height: 40%;
+	width: 50%;
 	margin-left: 20px;
 	margin-right: 40px;
 	
 	
-}
-#status{
-	background-color: #A7D6ED; 
-}
-
-#inStat{
-	width: 100%;
-
 }
 
 .footer{
@@ -84,24 +85,23 @@ body{
 	text-align: center;
 }
 
-
-/*
-
-Following are the customer bg color for the element that the page is cuurently loaded corrsponding to the link in the navbar
+/*****************************************************************************************************************/
 
 
-*/
 
-.navbar #nHome {
-	background-color: red;
+#status{
+background-color: #A7D6ED; 
 }
 
-.navbar #nBlog {
-	background-color: blue;
+#inStat{
+width: 100%;
+
 }
 
- .navbar #nProfile {
- 	background-color: yellow;
- }
+::placeholder{
+color: #00aced;
+
+}
+
 
 

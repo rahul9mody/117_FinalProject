@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags must come first in the head; any other head content must come after these tags -->
-    <title>Decablog</title>
+    <title>Deca-blog</title>
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -22,11 +22,11 @@
     <link rel="stylesheet" type="text/css" href = "css/style.css">
 
   </head>
-  <body>
+  <body id = "main">
 
     
-    <div class="container-fluid">
-        <div class="jumbotron ">
+    <div>
+        <div class="jumbotron">
           <h1> Rahul Mody </h1>
           <p id="jumbo">
 
@@ -49,61 +49,45 @@
           <!-- Jumbotron -->
         </div>
 
-        <nav class="navbar navbar-inverse navbar-expand navbar-custom">
-          
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
-          </button>
+            </button>
             
-          <div class="collapse navbar-collapse" id="navbar">
-            
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a id="nBlog" class="nav-link" href="index.html"> Home<span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a  id="nBlog" class="nav-link" href="blog.html">Blog</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="profile.html">Profile</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#">Github</a>
-              </li>
-            </ul>
-
-          </div>
-
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a style = "color: white;" class="nav-item nav-link active" href="index.html">Home</a>
+                    <a style = "color: white;" class="nav-item nav-link" href="blog.html">Deca-Blog</a>
+                    <a style = "color: white;" class="nav-item nav-link" href="profile.html">Profile</a>
+                    <a style = "color: white;" class="nav-item nav-link disabled" href="#">Github</a>
+                </div>
+            </div>
         </nav>
     
       <!--Container-fluid -->
     </div>
 
-     <br>
-     <br>
-
-     <div class="container">
-
+    <div class = "container">
       <div class="row">
-            <div class="card-deck" style="width: 110%;">
 
-              <div class="card">
-                
-                <div class="card-body">
-                  <h3 id="bH3" class="card-title">Deca-Blog</h3>
-                  <p class="card-text">The bigger, better and longer brother of TL;DR an Tweets. Everyhing said with 10 point. No more No Less!</p>
-                  
-                </div>
-               
-              </div>
+        <div class="card-deck" style="width: 110%;">
+
+          <div class="card">
+            
+            <div class="card-body">
+              <h3 id="bH3" class="card-title">Deca-Blog</h3>
+              <p class="card-text">The bigger, better and longer brother of TL;DR an Tweets. Everyhing said with 10 point. No more No Less!</p> 
             </div>
+           
+          </div>
+        </div>
          <!-- row -->  
       </div>
       
-      <br>
-
-      <div class="row">
-            <div class="card-deck">
+        <br> 
+          
+     <div class="row">
+        <div class="card-deck">
 
               <div class="card">
                 <img class="card-img-top" src="images/block.jpg" alt="blockchain">
@@ -111,8 +95,8 @@
                   <h5 class="card-title">Blockchain</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                   <p class="card-text"><small class="text-muted">Last updated 2 days ago</small></p>
+                    <button type="button" class="btn btn-primary btn-custom">Read</button>
                 </div>
-                <button type="button" class="btn btn-default btn-custom">Read</button>
               </div>
 
               <div class="card">
@@ -121,60 +105,60 @@
                   <h5 class="card-title">Data Analytics</h5>
                   <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
                   <p class="card-text"><small class="text-muted">Last updated 6 hours ago</small></p>
+                    <button type="button" class="btn btn-primary btn-custom">Read</button>
                 </div>
-               <button type="button" class="btn btn-default btn-custom">Read</button>
               </div>
-            </div>
-         <!-- row -->  
-      </div>
-
+            
+        </div>
+     <!-- row -->  
+     </div>
       
       <br>
       <br>
 
       <div class="row">
-            <div class="card-deck">
 
-              <div class="card">
-                <img class="card-img-top" src="images/ml.jpg" alt="ML">
-                <div class="card-body">
-                  <h5 class="card-title">Machine Learning</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
-                </div>
-                <button type="button" class="btn btn-default btn-custom">Read</button>
-              </div>
+          <div class="card-deck">
 
-              <div class="card">
-                <img class="card-img-top" src="images/bezo.jpg" alt="Bezos">
-                <div class="card-body">
-                  <h5 class="card-title">Jeff Bezos</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-                </div>
-                <button type="button" class="btn btn-default btn-custom">Read</button>
-              </div>              
-
-
-              <div class="card">
-                <img class="card-img-top" src="images/node.jpg" alt="Node JS">
-                <div class="card-body">
-                  <h5 class="card-title">Node JS</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                  <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
-                </div>
-                <button type="button" class="btn btn-default btn-custom">Read</button>
+            <div class="card">
+              <img class="card-img-top" src="images/ml.jpg" alt="ML">
+              <div class="card-body">
+                <h5 class="card-title">Machine Learning</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 1 day ago</small></p>
+                  <button type="button" class="btn btn-primary btn-custom">Read</button>
               </div>
             </div>
 
+            <div class="card">
+              <img class="card-img-top" src="images/bezo.jpg" alt="Bezos">
+              <div class="card-body">
+
+                <h5 class="card-title">Jeff Bezos</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  <button type="button" class="btn btn-primary btn-custom">Read</button>
+
+              </div>
+            </div>              
+
+
+            <div class="card">
+              <img class="card-img-top" src="images/node.jpg" alt="Node JS">
+              <div class="card-body">
+                <h5 class="card-title">Node JS</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 days ago</small></p>
+                  <button type="button" class="btn btn-primary btn-custom">Read</button>
+              </div>
+            </div>
+
+          </div>
+
          <!-- row2 -->   
+      
       </div>
 
-      <div class="footer">
-        <p> &#169; Rahul Mody 2018</p>
-      </div>
-
-        <!-- container -->
     </div>
 
 
